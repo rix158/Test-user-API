@@ -9,11 +9,14 @@ Descargar las fuentes desde el repositorio:
 ```bash
 git clone https://github.com/rix158/test-user-api.git
 ```
+## Database
+La base de datos embebida es una H2 (memoria) que se levanta junto con el proyecto
 
 ## Uso
 Ingresar al directorio de las fuentes
 ```java
 cd ../../user
+maven package
 
 # Ejecutar
 mvn spring-boot:run
