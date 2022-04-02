@@ -7,7 +7,7 @@ User API permite la creación de usuarios y consultar todos los usuarios registr
 Descargar las fuentes desde el repositorio:
 
 ```bash
-git clone //repo
+git clone https://github.com/rix158/test-user-api.git
 ```
 
 ## Uso
