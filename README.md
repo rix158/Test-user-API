@@ -47,6 +47,14 @@ GET /api/retrieve
 ]
 }
 ```
+## Configuración de parámetros (expresiones regulares)
+
+Se puede parametrizar en el archivo application.properties
+Por ejemplo parametrizar el valor de la expresión:
+
+```java
+app.pass.valid.regex=^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{5,10}$
+```
 
 
 ## Desarrollador
